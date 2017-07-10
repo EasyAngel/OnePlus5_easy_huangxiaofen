@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo1.css"/>
+		<link rel="icon" type="image/x-icon" href="img/logo.png" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script src="js/bootstrap.js" type="text/javascript" charset="utf-8"></script>		
+		<title>一加手机客户服务中心</title>
+	</head>
+	<body >
+		<style type="text/css">
+			.row11
+			{
+				margin-right: 0;
+			}
+		</style>
+		<!--导航条-->		
+		<div class="header container" style="background: white;">
+			<div class="row row11">
+				<!--第一部分图片logo-->
+				<h1 class="logo pull"><a href="#">logo</a></h1>
+				
+				<!--第二部分：图标部分-->
+				<ul class="icons nav pull-right">
+					<span class="glyphicon glyphicon-search hidden-xs"></span>
+					<span class="glyphicon glyphicon-shopping-cart"><a href="#"></a></span>
+					<span class="glyphicon glyphicon-user"><a href="#"></a></span>
+					<span class="glyphicon glyphicon-align-justify visible-xs-inline-block"><a href="#"></a></span>
+				</ul>
+				
+				<!--第三部分：导航条隐藏部分-->
+				<nav class="nav menu">
+					<li class="nav1 nav11"><a href="OnePlus5.html">OnePlus5</a></li>
+					<li class="nav1 nav11"><a href="#">商城</a></li>
+					<li class="nav1 nav11"><a href="一加手机客户服务中心.html">服务</a></li>
+					<li class="nav1 nav11"><a href="#">博客</a></li>
+					<li class="nav1"><a href="#">论坛</a></li>
+					<li class="visible-xs" style="background: #F3F3F3;height: 100px;position: relative;">
+						<form class="form1" action="test.html" method="post" enctype="application/x-www-form-urlencoded">
+							<tr>
+								<div class="glyphicon glyphicon-menu-up upposition"></div>
+						  	    <input class="search-input search-input-onclick" type="text" placeholder="搜索您的商品名称" autocomplete="off" />
+						  	    <span class="glyphicon glyphicon-search glyphicon-search1"></span>
+						    </tr>						   
+					    </form>
+					</li>
+				</nav>
+				<!--把鼠标放上购物车时弹出提示框-->
+				<div class="shopping-cart-alert">
+					<div class="shopping-cart-alert no-goods">
+						你的购物车里没有商品
+					</div>					
+				</div>				
+			</div>			
+		</div>		
+		<!--第二部分图片：“人手拿着手机”-->
+		<section class="part2">
+			<div>
+				<h2>OnePlus Service</h2>
+			</div>				
+		</section>		
+		<!--第三部分：防伪查询，一加加多保查询、资源下载、更多服务-->
+		<section class="part3">
+			<nav class="nserv-sub-nav clearfix"><!--包含两部分-->
+				<ul id="nserv-sub-navlist" class="clearfix">
+					<li class="li1">
+						<a href="#">
+							<span></span>
+						    <h4>防伪查询</h4>
+					    </a>					
+				    </li>
+				    <li class="li2">
+					    <a href="#">
+						    <span></span>
+						    <h4>一加加多保查询</h4>
+					    </a>					
+				    </li>
+				    <li class="li3">
+					    <a href="#">
+						    <span></span>
+						    <h4>资源下载</h4>
+					    </a>					
+				    </li>
+				    <li class="li1">
+					    <a href="#">
+						    <span></span>
+						    <h4>更多服务</h4>
+					    </a>					
+				    </li>
+			    </ul>
+			    <!--大屏幕时-->
+			    <!--一加加多保、一加医生-->
+			    <ul id="server-slide">
+			    	<!--一加加多宝-->
+			    	<li class="jdb">
+			    		<!--定义一个块，存放左边的内容-->
+			    		<div>
+			    			<i></i><!--定义一个i标签，存放一加加多保图片-->
+			    			<a href="#">
+			    				<hgroup> <!--定义一个hgroup，存放中间的小图片和  “一加加多保”标题-->
+			    					<h3></h3> <!--定义一个h3，存放小图片-->
+			    					<h4 class="hidden-xs">一加加多保</h4>  <!--定义一个h4寸放“一加加多保”标题-->
+			    				</hgroup>
+			    			</a>
+			    		</div>
+			    	</li>
+			    	<!--一加医生-->
+			    	<li class="ys">
+			    		<!--定义一个div，存放右边“一加医生”的内容-->
+			    		<div>
+			    			<!--定义一个标签i，存放背景图-->
+			    			<i></i>
+			    			<a href="#">
+			    				<hgroup>  <!--定义一个hgroup，存放中间小部分小图片和“一加医生”标题-->
+			    					<h3></h3><!-- 定义一个h3，存放小图片-->
+			    					<h4 class="hidden-xs">一加医生</h4><!--定义一个h4，存放“一加医生”，这个标题-->		    					
+			    				</hgroup>
+			    			</a>
+			    		</div>			    		
+			    	</li>
+			    </ul>
+			    <!--小屏幕时-->
+			    <!--轮播图-->
+			    <div id="myCarousel"  class="carousel slide visible-xs">
+                    <!-- 轮播（Carousel）指标 -->
+			        <ol class="carousel-indicators dot">
+			        	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>   
+                    <!-- 轮播（Carousel）项目 -->
+                    <div class="carousel-inner igs">
+                    	<div class="item active jdb">
+                    		<a href="#">
+                    			<img src="img/img-jdb.jpg" alt="First slide">
+                    				<span>
+                    					<h5></h5>
+        				                <h6>一加加多保</h6>
+            	                    </span>
+                            </a>
+                        </div>
+                        <div class="item ys">
+                        	<a href="#">
+        		                <img src="img/img-yjys.jpg" alt="Second slide">
+        			            <span>
+        				            <h5></h5>
+        				            <h6>一加医生</h6>
+            	                </span>
+                            </a>
+                        </div>
+                    </div>
+                   <!-- 轮播（Carousel）导航 -->
+                   <a class="carousel-control left left1" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                   <a class="carousel-control right right1" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+			</nav>
+		</section>
+        <!--第四部分：售后服务，深圳，北京，退、换货，在这里可以帮到您-->
+        <section class="part4">
+        	<div class="part4-inner">
+        		<h2>售后服务</h2>
+        		<h3>退、换货及维修，在这里可以帮到您。</h3>
+        		<div class="part4-order">
+        			<a href="#">
+        				<button type="part4-search-button">
+        					<img src="img/search-icon.png" />
+        					查询
+        				</button>
+        			</a>
+        		</div>
+        		<div class="part4-content clearfix hidden-xs" id="part4-channel">
+        			<div class="part4-official-channel">
+        				<h4>一加官网购买</h4>
+        				<p>一加官网购买产品的退换货、维修问题，进入您的个人中心获得帮助，也可以拨打一加服务电话 400-888-1111 联系我们。</p>
+        				<img src="img/icon-personal.png"/>
+        				<a href="#">
+        					查看个人中心
+        				</a>
+        			</div>
+        			<div class="part4-unofficial-channel">
+        				<h4>非官方购买</h4>
+        				<p>非一加官网购买产品的退换货服务请联系您的购买平台，如需维修服务，请拨打一加服务电话 400-888-1111 联系我们。</p>
+        				<img src="img/icon-process.png" />
+        				<a href="#">
+        					查看售后流程
+        				</a>
+        			</div>
+        		</div>
+            <!--第四部分：售后服务，深圳，北京，退、换货，在这里可以帮到您-->      		
+        	<!--小屏幕时-->
+			 <!--轮播图-->
+			 <div class="myCarousel2">
+			    <div id="myCarousel2"  class="carousel slide visible-xs">
+                    <!-- 轮播（Carousel）指标 -->
+			        <ol class="carousel-indicators carousel-indicators">
+			        	<li class="lifx" data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                        <li class="lifx"  data-target="#myCarousel2" data-slide-to="1"></li>
+                    </ol>   
+                    <!-- 轮播（Carousel）项目 -->
+                    <div class="carousel-inner myCarousel2-lunbocontent ">
+                    	<div class="item active">
+                    		<h4>一加官网购买</h4>
+        				    <p>一加官网购买产品的退换货、维修问题，进入您的个人中心获得帮助，也可以拨打一加服务电话 400-888-1111 联系我们。</p>
+        				    <img src="img/icon-personal.png"/>
+        				    <a href="#">
+        					      查看个人中心
+        				    </a>
+                        </div>
+                        <div class="item">
+                        	<h4>非官方购买</h4>
+        				    <p>非一加官网购买产品的退换货服务请联系您的购买平台，如需维修服务，请拨打一加服务电话 400-888-1111 联系我们。</p>
+        				    <img src="img/icon-process.png" />
+        				    <a href="#">
+        					       查看售后流程
+        				</a>
+                        </div>
+                    </div>
+                   <!-- 轮播（Carousel）导航 -->
+                   <a class="carousel-control left left1 left11" href="#myCarousel2" data-slide="prev">&lsaquo;</a>
+                   <a class="carousel-control right right1 right11" href="#myCarousel2" data-slide="next">&rsaquo;</a>
+                </div>
+        	</div> 
+        </section>  
+        <!--第五部分:头:常见问题\请输入要搜索的内容-->
+        <!--第五部分:内容:电子发票\未付款的订单会保存多久等等-->
+        <section　class="part5">
+        	<div class="part5-inner">
+        		<div class="part5-head">
+        			<h2>常见问题</h2>
+        			<form action="button-hover.html" method="post">        				
+        				<input class="inputtext" type="text" placeholder="请输入要搜索的内容"/>
+        				<span class="glyphicon glyphicon-search"></span>
+        			</form>
+        		</div>
+        		<!--第五部分:内容:电子发票\未付款的订单会保存多久等等-->
+        		<ul class="clearfix">
+        			<div class="row row11" >
+        				<li class=" glyphicon glyphicon-menu-right col-xs-12 col-md-6 col-sm-6 col-lg-6">
+        					<a href="#">电子发票</a>
+        				</li>
+        				<li class="glyphicon glyphicon-menu-right col-xs-12 col-md-6 col-sm-6 col-lg-6">
+        					<a href="#">未付款的订单会保存多久</a>
+        				</li>
+        				<li class="glyphicon glyphicon-menu-right col-xs-12 col-md-6 col-sm-6 col-lg-6">
+        					<a href="#">纳税人识别号</a>
+        				</li>
+        				<li class="glyphicon glyphicon-menu-right col-xs-12 col-md-6 col-sm-6 col-lg-6">
+        					<a href="#">一加商城支持哪些在线支付方式</a>
+        				</li>
+        				<li class="glyphicon glyphicon-menu-right col-xs-12 col-md-6 col-sm-6 col-lg-6">
+        					<a href="#">一加手机5性能如何？</a>
+        				</li>
+        				<li class="glyphicon glyphicon-menu-right col-xs-12 col-md-6 col-sm-6 col-lg-6">
+        					<a href="#">什么情况下可以申请退换货</a>
+        				</li>
+        				<li class="glyphicon glyphicon-menu-right col-xs-12 col-md-6 col-sm-6 col-lg-6">
+        					<a href="#">一加手机5是全金属设计吗？</a>
+        				</li>
+        				<li class="glyphicon glyphicon-menu-right col-xs-12 col-md-6 col-sm-6 col-lg-6">
+        					<a href="#">一加手机5包装清单有哪些？</a>
+        				</li>
+        				<li class="glyphicon glyphicon-menu-right col-xs-12 col-md-6 col-sm-6 col-lg-6">
+        					<a href="#">一加手机5【一加加多保】服务保障条款</a>		
+        				</li>
+        				<li class="glyphicon glyphicon-menu-right col-xs-12 col-md-6 col-sm-6 col-lg-6">
+        					<a href="#">一加手机5可以在哪些渠道购买？</a>		
+        				</li>
+        			</div>
+        		</ul>
+        		<part class="lookquestion"><a  href="#">查看全部问题</a></part>		
+        	</div>
+        </section>       
+        <!--第七部分：联系我们，微信，qq，微博，电话-->
+        <section class="part7-contact">
+        	<h2>联系我们</h2>
+        	<ul id="contact-inner">
+        		<li class="wetchat col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        			<a href="#">
+        				<span></span><!--定义一个span，存放图片-->
+        				微信
+        		    </a>
+        		</li>
+        		<li class="QQ col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        			<a href="#">
+        				<span></span>
+        				QQ
+        			</a>
+        		</li>
+        		<li class="microblog col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        			<a href="#">
+        				<span></span>
+        				微博
+        			</a>
+        		</li>
+        		<li class="phone col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        			<a href="#">
+        				<span></span>
+        			    400-888-1111
+        			</a>
+        		</li>
+        	</ul>      	
+        </section>    
+        <!--第六部分：下拉菜单：一加产品；关于一加；服务支持-->
+        <div class="part6">
+        	<!--一加产品-->
+        	<div class="footer">        				
+        		<span>一加产品<h4 class="glyphicon glyphicon-menu-down pull-right visible-xs"></h4></span>
+        		<ul class="row61" >	
+        		    <!--<div class="divider visible-xs"/></div>-->
+        			<li><a href="#">OnePlus 5</a></li>
+        			<li><a href="#">一加手机 3T</a></li>
+        			<li><a href="#">一加手机 3</a></li>
+        		</ul>
+        	</div>
+        	<!--关于一加-->
+        	<div class="footer">        				
+        		<span>关于一加<h4 class="glyphicon glyphicon-menu-down pull-right visible-xs"></h4></span>
+        		<ul class="row61" >	
+        			<li><a href="#">了解一加</a></li>
+        			<li><a href="#">加入一加</a></li>
+        			<li><a href="#">H2OS</a></li>
+        		</ul>
+        	</div>
+        	<!--服务支持-->
+        	<div class="footer">        				
+        		<span>服务支持<h4 class="glyphicon glyphicon-menu-down pull-right visible-xs"></h4></span>
+        		<ul class="row61" >	
+        			<li><a href="#">自助服务</a></li>
+        			<li><a href="#">技术支持</a></li>
+        			<li><a href="#">售后服务</a></li>
+        			<li><a href="#">一加加多保</a></li>
+        		</ul>
+        	</div>
+        	<!--客服电话-->
+        	<div class="footer footerphone">        				
+        		<div class="footer-phone">
+        			<span><font style="color: #999;">客服电话:</font><a href="#">400-888-1111</a></span>        			      			     			
+        		</div>       				 
+        	    <button type="button" class="btn"><a href="#">在线客服</a></button>
+        	</div>        	
+        </div>
+        <!--最底部-->
+        	<div class="footer-bottom">
+        		<div class="footer-bottom-inner">
+        			<div class="icon-local">
+        				"Change location"
+        				<a href="#"><img src="img/flag.png"/></a>
+        			</div>
+        			<div class="icon-legal clearfix">
+        				<span class="footer-bottom-inner-contant">
+        					"@ 2013-2017 OnePlus. All Right Reserved.("
+        					<a href="#">粤 ICP备13088308号-1</a>
+        				</span>
+        				<span class="icon-kx">
+        					<a href="#"><img src="img/cnnic.png"/></a>
+        				</span>
+        				<span class="icon-smrz">
+        					<a href="#"><img src="img/sm_83x30.png"/></a>
+        				</span>
+        				<span class="icon-beian">
+        					<a href="#">
+        						<img src="img/record.png" />
+        						"粤公网安备44030402000178号"
+        					</a>
+        				</span>
+        			</div>
+        		</div>
+        	</div>        	     
+	</body>
+	<script src="js/demo1.js" type="text/javascript" charset="utf-8"></script>
+</html>
