@@ -1,0 +1,69 @@
+/*第一部分:图片logo*/
+.header h1.logo
+{
+	margin: 18px 0 0 23px;
+	position: absolute;
+}
+.header h1.logo a    /*h1 .logo和h1.logo*/
+{
+	display: inline-block;
+	background: url(../img/logo.png) no-repeat;
+	width: 44px;
+	height:44px;
+	text-indent: -99em;
+}
+.header ul.icons span
+{
+	line-height: 80px;
+	color: #999999;
+	margin: 0 21.5px;
+	cursor: pointer;
+}
+/*第三部分：隐藏部分*/
+.header nav.menu
+{
+	text-align: center;
+}
+.header nav.menu li
+{
+	display: inline-block;
+}
+.header nav.menu li a
+{
+	line-height: 80px;
+	padding: 0 15px;
+	color: #7e7e7e;
+	font-size: 14px;
+}
+/*大屏幕时*/
+@media only screen and (min-width: 768px) {
+	.navbar-nav{
+		float: none;
+	}
+	/*.header nav.menu li{
+		top: 0px;
+	}*/
+	ul.icons{
+		right: 10px;
+		position: absolute;
+	}	
+}
+/*小屏幕时*/
+@media screen and (max-width:767px)
+{
+	.header nav.menu li{
+		display: block;
+		text-align: left;
+	}
+	.header nav.menu
+	{
+		display: none;
+	}
+	.header ul.icons{
+		right: -5px;
+	}
+	.header ul.icons span{
+		font-size: 25px;
+	}
+}
+

@@ -1,0 +1,76 @@
+/*nav begin*/
+.header h1.logo{
+	margin: 18px 0 0 23px;
+    position: absolute;
+    /*left: 0;
+    top: 0;*/
+}
+.header h1.logo a{	
+	background: url(../img/logo.png) no-repeat;
+	display: inline-block;
+	/*background-size:44px,44px;*/
+	width: 44px;
+	height: 44px;
+	text-indent: -99em;  /*marktext-indent 属性规定文本块中首行文本的缩进。 注释:允许使用负值。如果使用负值,那么首行会被缩进到左边*/
+}
+
+.header ul.icons span{
+	line-height: 80px;
+	color: #999999;
+	margin: 0 21.5px;
+	cursor: pointer;
+}
+
+.header nav.menu{
+	text-align: center;
+}
+.header nav.menu li{
+	
+	display: inline-block;
+}
+.header nav.menu li a{
+	line-height: 80px;
+	padding: 0 15px;
+	color: #7e7e7e;
+    font-size: 14px;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.navbar-nav{
+		float: none;
+	}
+	/*.header nav.menu li{
+		top: 0px;
+	}*/
+	ul.icons{
+		right: 10px;
+		position: absolute;
+	}
+	
+}
+@media only screen and (max-width: 767px) {
+	.header nav.menu li{
+		display: block;
+		text-align: left;
+	}
+	.header nav.menu{
+		display: none;
+	}
+	.header ul.icons{
+		right: -5px;
+	}
+	.header ul.icons span{
+		font-size: 25px;
+	}
+}
+/*end nav*/
+/*.row a.imgResponse{
+	background: url(../img/regular.jpg);
+	display: block;
+	position: absolute;
+}*/
+
+
+
+
